@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "Blue Backpack",
+      "type": "Lost",
+      "description": "Lost near cafeteria",
+      "image": "",
+      "location": "Main Campus",
+      "contactInfo": "0712345678",
+      "createdAt": "2025-07-21T08:30:00Z"
+    }
+  ]
+}
