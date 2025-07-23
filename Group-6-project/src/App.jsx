@@ -3,15 +3,17 @@ import Navbar from "./Components/Navbar"
 import Home from "./Pages/Home"
 import AddItem from "./Pages/AddItem"
 import ItemDetails from "./Pages/ItemDetails"
+import Landingpage from "./Pages/Landingpage"
 
 function App() {
   return (
     <div>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/new" element={<AddItem />} />
-        <Route path="/items/:id" element={<ItemDetails />} />
+        <Route path="/" element={<Landingpage />} />
+        <Route path="/Item-List" element={<Home />} />
+        <Route path="/Add-Item" element={<AddItem />} />
+        <Route path="/Item-List/:id" element={<ItemDetails />} />
       </Routes>
     </div>
   )
