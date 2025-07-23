@@ -1,14 +1,124 @@
 {
   "items": [
-    {
-      "id": 1,
-      "title": "Blue Backpack",
-      "type": "Lost",
-      "description": "Lost near cafeteria",
-      "image": "",
-      "location": "Main Campus",
-      "contactInfo": "0712345678",
-      "createdAt": "2025-07-21T08:30:00Z"
-    }
+  {
+    "id": "a221",
+    "title": "Blue Backpack",
+    "type": "Lost",
+    "location": "Kencom",
+    "image": "https://plus.unsplash.com/premium_photo-1722993519879-aadaa597ba3f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Qmx1ZSUyMEJhY2twYWNrfGVufDB8fDB8fHww",
+    "description": "Contains textbooks and a silver HP laptop.",
+    "contactInfo": "0712345678",
+    "DateLost": "2025-07-18",
+    "TimeLost": "08:30",
+    "Reward": "2000"
+  },
+  {
+    "id": "a222",
+    "title": "Samsung Phone",
+    "type": "Lost",
+    "location": "Junction Mall",
+    "image": "https://images.unsplash.com/photo-1721864428894-3900930506aa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8U2Ftc3VuZyUyMFBob25lfGVufDB8fDB8fHww",
+    "description": "Lost Galaxy A52 with a blue cover and cracked screen.",
+    "contactInfo": "0700001122",
+    "DateLost": "2025-07-19",
+    "TimeLost": "17:45",
+    "Reward": "3000"
+  },
+  {
+    "id": "a223",
+    "title": "Set of Keys",
+    "type": "Found",
+    "location": "Westlands",
+    "image": "https://plus.unsplash.com/premium_photo-1722945643880-f42155c06a32?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2V0JTIwb2YlMjBLZXlzfGVufDB8fDB8fHww",
+    "description": "Found car and house keys with a green tag.",
+    "contactInfo": "0788123456",
+    "DateLost": "2025-07-20",
+    "TimeLost": "14:00",
+    "Reward": ""
+  },
+  {
+    "id": "a224",
+    "title": "Ladies Purse",
+    "type": "Found",
+    "location": "Gikambura Stage",
+    "image": "https://plus.unsplash.com/premium_photo-1680392544041-d89413b561ce?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8TGFkaWVzJTIwUHVyc2V8ZW58MHx8MHx8fDA%3D",
+    "description": "Pink purse with coins and receipts found in a matatu.",
+    "contactInfo": "0744556677",
+    "DateLost": "2025-07-17",
+    "TimeLost": "19:00",
+    "Reward": ""
+  },
+  {
+    "id": "a225",
+    "title": "National ID",
+    "type": "Lost",
+    "location": "Kenyatta Avenue",
+    "image": "https://images.unsplash.com/photo-1623795457659-f6b530b2e383?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fE5hdGlvbmFsJTIwSUQlMjBjYXJkfGVufDB8fDB8fHww",
+    "description": "Lost Kenyan ID in the name of Kevin Otieno.",
+    "contactInfo": "0799004567",
+    "DateLost": "2025-07-15",
+    "TimeLost": "12:00",
+    "Reward": "500"
+  },
+  {
+    "id": "a226",
+    "title": "Black Umbrella",
+    "type": "Lost",
+    "location": "Nairobi Hospital",
+    "image": "https://images.unsplash.com/photo-1514882651048-f09572b0233e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8QmxhY2slMjBVbWJyZWxsYXxlbnwwfHwwfHx8MA%3D%3D",
+    "description": "Left near the waiting area outside pharmacy.",
+    "contactInfo": "0721345612",
+    "DateLost": "2025-07-14",
+    "TimeLost": "10:20",
+    "Reward": ""
+  },
+  {
+    "id": "a227",
+    "title": "Red Powerbank",
+    "type": "Found",
+    "location": "Moi University Bus",
+    "image": "https://images.unsplash.com/photo-1594843665794-446ce915d840?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8UmVkJTIwUG93ZXJiYW5rfGVufDB8fDB8fHww",
+    "description": "Found on seat with black USB cable attached.",
+    "contactInfo": "0733567890",
+    "DateLost": "2025-07-16",
+    "TimeLost": "09:50",
+    "Reward": ""
+  },
+  {
+    "id": "a228",
+    "title": "School Bag",
+    "type": "Lost",
+    "location": "Kasarani",
+    "image": "https://images.unsplash.com/photo-1622560480654-d96214fdc887?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2Nob29sJTIwQmFnfGVufDB8fDB8fHww",
+    "description": "Green school bag with exercise books and lunch box.",
+    "contactInfo": "0711456789",
+    "DateLost": "2025-07-13",
+    "TimeLost": "07:15",
+    "Reward": "300"
+  },
+  {
+    "id": "a229",
+    "title": "Wrist Watch",
+    "type": "Found",
+    "location": "Prestige Plaza",
+    "image": "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8V3Jpc3QlMjBXYXRjaHxlbnwwfHwwfHx8MA%3D%3D",
+    "description": "Black digital Casio watch left at food court.",
+    "contactInfo": "0790022334",
+    "DateLost": "2025-07-12",
+    "TimeLost": "15:30",
+    "Reward": ""
+  },
+  {
+    "id": "a230",
+    "title": "Glasses Case",
+    "type": "Lost",
+    "location": "University Way",
+    "image": "https://images.unsplash.com/photo-1632986636968-04958bfbbf3f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8R2xhc3NlcyUyMENhc2V8ZW58MHx8MHx8fDA%3D",
+    "description": "Black Ray-Ban glasses case with reading glasses inside.",
+    "contactInfo": "0722345678",
+    "DateLost": "2025-07-11",
+    "TimeLost": "11:00",
+    "Reward": "1000"
+  }
   ]
 }
