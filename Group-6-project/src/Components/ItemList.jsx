@@ -1,23 +1,18 @@
-import React, { useEffect, useState } from 'react'
-import { useParams } from 'react-router-dom'
-import ItemExtraDetails from '../Components/ItemExtraDetails'
+import ItemCard from "./ItemCard";
+import '../App.css'
 
-const ItemDetails = () => {
-  const { id } = useParams()
-  const [item, setItem] = useState(null)
-
-  useEffect(() => {
-    fetch(`http://localhost:3000/items/${id}`)
-      .then(res => res.json())
-      .then(data => setItem(data))
-  }, [id])
-
-  if (!item) return <p>Loading...</p>
+function ItemList({ items }) {
+  if (!items.length) return <p>No items found</p>;
 
   return (
-    <div>
-      <ItemExtraDetails item={item} />
+    <div className="item-list general">
+      {items.map((item) => (
+        <div key={item.id}>
+          <ItemCard item={item} />
+        </div>
+      ))}
     </div>
-  )
+  );
 }
-export default ItemDetails
+
+export default ItemList;
