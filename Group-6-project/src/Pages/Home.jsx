@@ -1,7 +1,7 @@
 import ItemList from "../Components/ItemList"
 import FilterBar from '../Components/FilterBar'
 import { useEffect, useState } from 'react'
-import './Home.css'
+import '../App.css'
 
 function Home() {
   const [items, setItems] = useState([])
