@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: #429EA6;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 1.8rem;
+    font-weight: 550;
+}
+
+.nav-link {
+    text-decoration: none;
+    margin-right: 10px;
+    color: #0A0A0A;
+    background-color: #F0F3BD;
+    padding: 2px;
+    border-radius: 5px;
+}
