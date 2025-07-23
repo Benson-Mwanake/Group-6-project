@@ -1,16 +1,20 @@
 import { Link } from 'react-router-dom'
-import './ItemList.css'
+import '../App.css'
 
 function ItemCard({ item }) {
   return (
-    <div className="item-card">
+    <>
+    <div id='item-card2' className="item-card general">
+      <img src={item.image}/>
+      <div className='text-cont'>
       <h3>{item.title}</h3>
       <p><strong>Type:</strong> {item.type}</p>
       <p><strong>Location:</strong> {item.location}</p>
-      <img src={item.image}/>
-      <p>{item.description}</p>
-      <Link to={`/items/${item.id}`}>View Details</Link>
+      <p className='desc'>{item.description}</p>
+      <Link className='link' to={`/Item-List/${item.id}`}>More</Link>
+      </div>
     </div>
+    </>
   )
 }
 

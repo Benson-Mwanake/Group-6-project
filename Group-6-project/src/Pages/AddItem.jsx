@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import './AddItem.css'
+import '../App.css'
 
 function AddItem() {
   const [formData, setFormData] = useState({
@@ -32,12 +32,12 @@ function AddItem() {
     })
       .then(res => res.json())
       .then(() => {
-        navigate('/')
+        navigate('/Item-List')
       })
   }
 
   return (
-    <div className="add-item">
+    <div className="add-item general">
       <h2>Post New Item</h2>
       <form onSubmit={handleSubmit}>
         <label>Title:</label>
