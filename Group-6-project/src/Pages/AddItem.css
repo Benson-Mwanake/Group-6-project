@@ -12,36 +12,3 @@
   text-align: center;
 }
 
-.add-item label {
-  display: block;
-  margin-bottom: 5px;
-  font-weight: bold;
-}
-
-.add-item input,
-.add-item textarea,
-.add-item select {
-  width: 100%;
-  margin-bottom: 15px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.add-item button {
-  width: 100%;
-  padding: 10px;
-  background-color: #222;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.item-image {
-  width: 100%;
-  max-height: 200px;
-  object-fit: cover;
-  border-radius: 8px;
-  margin-bottom: 10px;
-}
