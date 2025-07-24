@@ -22,7 +22,7 @@
       "contactInfo": "0788123456",
       "DateLost": "2025-07-20",
       "TimeLost": "14:00",
-      "Reward": ""
+      "Reward": "0"
     },
     {
       "id": "a224",
@@ -34,7 +34,7 @@
       "contactInfo": "0744556677",
       "DateLost": "2025-07-17",
       "TimeLost": "19:00",
-      "Reward": ""
+      "Reward": "0"
     },
     {
       "id": "a225",
@@ -58,7 +58,7 @@
       "contactInfo": "0721345612",
       "DateLost": "2025-07-14",
       "TimeLost": "10:20",
-      "Reward": ""
+      "Reward": "0"
     },
     {
       "id": "a227",
@@ -70,7 +70,7 @@
       "contactInfo": "0733567890",
       "DateLost": "2025-07-16",
       "TimeLost": "09:50",
-      "Reward": ""
+      "Reward": "0"
     },
     {
       "id": "a228",
@@ -94,7 +94,7 @@
       "contactInfo": "0790022334",
       "DateLost": "2025-07-12",
       "TimeLost": "15:30",
-      "Reward": ""
+      "Reward": "0"
     },
     {
       "id": "a230",
