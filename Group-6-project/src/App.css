@@ -227,10 +227,9 @@ img {
   margin-bottom: 15px;
 }
 
-/* .general {
-  background-color: #DCFFFD;
-} */
-
+.item-card2 {
+  width: 800px;
+}
 .home-container {
   padding: 3rem;
   color: #e0e0e0;

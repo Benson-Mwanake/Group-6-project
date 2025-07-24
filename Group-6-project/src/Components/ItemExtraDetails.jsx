@@ -2,7 +2,7 @@ import '../App.css'
 
 function ItemExtraDetails({ item }) {
   return (
-     <div className="item-card general">
+     <div className="item-card item-card2">
       <h3>{item.title}</h3>
       <p><strong>Type:</strong> {item.type}</p>
       <p><strong>Location:</strong> {item.location}</p>
