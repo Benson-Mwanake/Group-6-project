@@ -233,6 +233,7 @@ img {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
   flex-grow: 1;
+  height: 95vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
