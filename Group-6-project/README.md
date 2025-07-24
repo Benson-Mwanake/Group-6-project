@@ -38,7 +38,7 @@ Lost & Found Board is a React-based application that allows users to post either
 
 ### Live Site
 
-Visit the deployed site: [Lost & Found Board on Netlify](https://scintillating-granita-7e6b49.netlify.app)
+Visit the deployed site: [Lost & Found Board on Netlify](group-6-lost-and-found.netlify.app)
 
 ### Local Development Setup
 
