@@ -1,7 +1,14 @@
+/* App.css */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+/* Add this new class for the overall app container */
+.app-container {
+    min-height: 100vh; /* Ensure it covers at least the full viewport height */
+    /* background-color is already set by .general */
 }
 
 .filter-bar {
@@ -17,14 +24,12 @@
     background-color: rgb(70, 69, 69);
     color: white;
     border: 1px solid rgb(70, 69, 69);
-    
 }
 
 .filter-bar button:hover {
     background-color: #F9C784;
     color: rgb(70, 69, 69);
 }
-
 
 .item-card {
   gap: 10px;
@@ -87,12 +92,13 @@ padding-bottom: 10px;}
   font-size: 13px;
 }
 
-
 .navbar {
     display: flex;
     justify-content: space-between;
     padding: 5px;
-    background: #F9C784;
+    background: #F9C784; /* This should now be clearly visible */
+    position: relative; /* Ensure it stacks correctly above content if needed */
+    z-index: 100; /* Give it a higher stacking context if other elements have z-index */
 }
 
 .nav-p {
@@ -107,7 +113,6 @@ padding-bottom: 10px;}
     padding: 2px;
     border-radius: 5px;
     font-weight: 550;
-
 }
 
 .nav-link:hover {
@@ -167,11 +172,12 @@ padding-bottom: 10px;}
     background-color: #DCFFFD;
 }
 
+/* Remove full viewport height from home-container if .app-container covers it */
 .home-container {
-  width: 100vw;
-  height: 100vh;
+  /* width: 100vw; */ /* Can be removed if app-container manages full width */
+  /* height: 100vh; */ /* Can be removed if app-container manages full height */
   padding: 2rem;
-  background-color: #DCFFFD;
+  /* background-color: #DCFFFD; */ /* Redundant if .general is applied to app-container */
   color: #e0e0e0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -188,6 +194,10 @@ padding-bottom: 10px;}
   text-align: center;
   color: #4b4949;
   margin-bottom: 2rem;
+}
+
+.features {
+  width: 100;
 }
 
 .features h2 {
