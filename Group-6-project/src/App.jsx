@@ -4,10 +4,12 @@ import Home from "./Pages/Home"
 import AddItem from "./Pages/AddItem"
 import ItemDetails from "./Pages/ItemDetails"
 import Landingpage from "./Pages/Landingpage"
+import './App.css'
+
 
 function App() {
   return (
-    <div>
+    <div className="app-container general">
       <Navbar />
       <Routes>
         <Route path="/" element={<Landingpage />} />
