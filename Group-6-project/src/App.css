@@ -1,96 +1,67 @@
-/* App.css */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-/* Base font size for the entire application */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Consistent font */
-    font-size: 16px; /* A good default base font size */
-    line-height: 1.6; /* Improve readability with line spacing */
-    background-color: #DCFFFD; /* Ensure body also has the general background as fallback */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: #DCFFFD;
 }
 
-/* NEW: html element for full height */
 html, body, #root {
-    height: 100%; /* Ensure html, body, and the root div take full viewport height */
+  height: 100%;
 }
 
-/* Main wrapper for the entire application */
 .main-app-wrapper {
-    min-height: 100%; /* Changed to 100% to fill #root height */
-    display: flex; /* Use flexbox for layout */
-    flex-direction: column; /* Stack children vertically */
-    /* Background color from .general applied here */
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
-/* Styles for the area containing your routed content */
 .content-area {
-    flex-grow: 1; /* Allows this area to take up remaining vertical space */
-    display: flex; /* Make content area a flex container */
-    flex-direction: column; /* Stack children vertically if needed */
-    /* Add padding here if you want space around ALL routed content */
-    /* padding: 20px; */ /* Consider if specific pages need their own padding */
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
 }
 
-/* Ensure individual pages (routed components) also fill space */
-.content-area > div { /* Target the immediate children of content-area (your pages) */
-    flex-grow: 1; /* Allow pages to grow and fill available space */
-    display: flex; /* Make them flex containers too */
-    flex-direction: column; /* Stack their content vertically */
-    /* Add padding here if you want consistent padding for all pages */
-    /* padding: 20px; */
+.content-area > div {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
 }
-
 
 .filter-bar {
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-    margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin-bottom: 20px;
 }
 
 .filter-bar button {
-    margin-right: 15px;
-    padding: 8px 15px;
-    border-radius: 5px;
-    background-color: rgb(70, 69, 69);
-    color: white;
-    border: 1px solid rgb(70, 69, 69);
-    font-size: 1rem;
-    cursor: pointer; /* Ensure cursor is pointer */
+  margin-right: 15px;
+  padding: 8px 15px;
+  border-radius: 5px;
+  background-color: rgb(70, 69, 69);
+  color: white;
+  border: 1px solid rgb(70, 69, 69);
+  font-size: 1rem;
+  cursor: pointer;
 }
 
 .filter-bar button:hover {
-    background-color: #F9C784;
-    color: rgb(70, 69, 69);
+  background-color: #F9C784;
+  color: rgb(70, 69, 69);
 }
-
 
 .item-card {
   gap: 15px;
   max-width: 300px;
-  min-height: 450px; /* Changed to min-height for consistency */
+  min-height: 450px;
   margin: 1.5rem auto;
-  background-color:antiquewhite;
-  border-radius: 10px;
-  text-align: center;
-  color: black;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-  padding: 10px;
-  display: flex; /* Make item-card a flex container */
-  flex-direction: column; /* Stack content vertically */
-  justify-content: space-between; /* Push more button to bottom */
-}
-
-#item-card2 { /* Ensure this matches item-card if they should be the same size */
-  gap: 15px;
-  max-width: 300px;
-  min-height: 450px; /* Changed to min-height */
-  margin: 1.5rem auto;
-  background-color:whitesmoke;
+  background-color: antiquewhite;
   border-radius: 10px;
   text-align: center;
   color: black;
@@ -101,9 +72,25 @@ html, body, #root {
   justify-content: space-between;
 }
 
-h3{
-    font-size: 1.3rem;
-    margin-bottom: 5px;
+#item-card2 {
+  gap: 15px;
+  max-width: 300px;
+  min-height: 450px;
+  margin: 1.5rem auto;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  text-align: center;
+  color: black;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h3 {
+  font-size: 1.3rem;
+  margin-bottom: 5px;
 }
 
 p {
@@ -114,15 +101,15 @@ p {
 .desc {
   font-size: 0.9rem;
   margin-bottom: 8px;
-  flex-grow: 1; /* Allow description to take up available space */
+  flex-grow: 1;
 }
 
 img {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
 }
 
 .item-list {
@@ -131,14 +118,14 @@ img {
   gap: 20px;
   padding: 20px;
   justify-content: center;
-  flex-grow: 1; /* Allows item-list to fill space within its parent */
+  flex-grow: 1;
 }
 
 .text-cont {
-padding-bottom: 10px;
-display: flex; /* Make text-cont a flex container */
-flex-direction: column; /* Stack text content vertically */
-flex-grow: 1; /* Allow text-cont to grow and push link down */
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
 .link {
@@ -149,40 +136,39 @@ flex-grow: 1; /* Allow text-cont to grow and push link down */
   border-radius: 5px;
   font-size: 0.9rem;
   display: inline-block;
-  margin-top: 10px; /* Increased margin to separate from description */
-  align-self: center; /* Center the link within the flex container */
+  margin-top: 10px;
+  align-self: center;
 }
 
-
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background: #F9C784;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: #F9C784;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
 .nav-p {
-    font-size: 1.5rem;
-    font-weight: 550;
+  font-size: 1.5rem;
+  font-weight: 550;
 }
 
 .nav-link {
-    text-decoration: none;
-    margin-left: 20px;
-    color: #0A0A0A;
-    padding: 5px 10px;
-    border-radius: 5px;
-    font-weight: 550;
-    font-size: 1.1rem;
+  text-decoration: none;
+  margin-left: 20px;
+  color: #0A0A0A;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: 550;
+  font-size: 1.1rem;
 }
 
 .nav-link:hover {
-    color: #DCFFFD;
+  color: #DCFFFD;
 }
 
 .add-item {
@@ -192,10 +178,10 @@ flex-grow: 1; /* Allow text-cont to grow and push link down */
   border: 1px solid #ddd;
   border-radius: 8px;
   background: #f9f9f9;
-  flex-grow: 1; /* Allow AddItem form to grow */
-  display: flex; /* Make form a flex container */
-  flex-direction: column; /* Stack form elements vertically */
-  justify-content: center; /* Center content vertically if space permits */
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .add-item h2 {
@@ -233,16 +219,16 @@ flex-grow: 1; /* Allow text-cont to grow and push link down */
   font-size: 1.1rem;
 }
 
-.item-image { /* This class is applied to image in AddItem form */
+.item-image {
   width: 100%;
   max-height: 250px;
-  object-fit: contain; /* Changed to contain to prevent cropping in form preview */
+  object-fit: contain;
   border-radius: 8px;
   margin-bottom: 15px;
 }
 
 .general {
-    background-color: #DCFFFD;
+  background-color: #DCFFFD;
 }
 
 .home-container {
@@ -250,10 +236,10 @@ flex-grow: 1; /* Allow text-cont to grow and push link down */
   color: #e0e0e0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
-  flex-grow: 1; /* Allow Landingpage to fill space */
-  display: flex; /* Make Landingpage a flex container */
-  flex-direction: column; /* Stack sections vertically */
-  justify-content: center; /* Center content vertically */
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .hero h1 {
@@ -274,10 +260,10 @@ flex-grow: 1; /* Allow text-cont to grow and push link down */
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  flex-grow: 1; /* Allow features section to grow */
+  flex-grow: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Center features vertically */
+  justify-content: center;
 }
 
 .features h2 {
