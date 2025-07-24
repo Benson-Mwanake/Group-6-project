@@ -38,14 +38,14 @@ Lost & Found Board is a React-based application that allows users to post either
 
 ### Live Site
 
-Visit the deployed site: [Lost & Found Board on Netlify](https://cerulean-capybara-48f44e.netlify.app)
+Visit the deployed site: [Lost & Found Board on Netlify](dapper-cuchufli-fdce5a.netlify.app)
 
 ### Local Development Setup
 
 1. **Clone the Repository:**
 
 ```bash
-git clone <your-repo-url>
+git clone git@github.com:Benson-Mwanake/Group-6-project.git
 cd Group-6-project
 ```
 
