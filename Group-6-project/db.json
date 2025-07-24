@@ -1,18 +1,6 @@
 {
   "items": [
     {
-      "id": "a221",
-      "title": "Blue Backpack",
-      "type": "Lost",
-      "location": "Kencom",
-      "image": "https://plus.unsplash.com/premium_photo-1722993519879-aadaa597ba3f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Qmx1ZSUyMEJhY2twYWNrfGVufDB8fDB8fHww",
-      "description": "Contains textbooks and a silver HP laptop.",
-      "contactInfo": "0712345678",
-      "DateLost": "2025-07-18",
-      "TimeLost": "08:30",
-      "Reward": "2000"
-    },
-    {
       "id": "a222",
       "title": "Samsung Phone",
       "type": "Lost",

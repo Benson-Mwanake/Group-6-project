@@ -7,7 +7,7 @@ const ItemDetails = () => {
   const [item, setItem] = useState(null)
 
   useEffect(() => {
-    fetch(`http://localhost:3000/items/${id}`)
+    fetch(`https://json-server-9hl1.onrender.com/items/${id}`)
       .then(res => res.json())
       .then(data => setItem(data))
   }, [id])

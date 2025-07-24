@@ -8,7 +8,7 @@ function Home() {
   const [filter, setFilter] = useState('All')
 
   useEffect(() => {
-    fetch('http://localhost:3000/items')
+    fetch('https://json-server-9hl1.onrender.com/items')
       .then(res => res.json())
       .then(data => setItems(data))
   }, [])
