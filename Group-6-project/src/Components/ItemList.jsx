@@ -3,7 +3,7 @@ import ItemCard from "./ItemCard";
 import '../App.css'
 
 function ItemList({ items }) {
-  if (!items.length) return <p>No items found</p>;
+  if (!items.length) return <p>Searching for items</p>;
 
   return (
     <div className="item-list general">
