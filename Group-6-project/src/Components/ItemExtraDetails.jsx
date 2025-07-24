@@ -25,7 +25,7 @@ function ItemExtraDetails({ item }) {
   };
 
   return (
-     <div className="item-extra-details-card general">
+     <div className="item-card general">
       <h3>{item.title}</h3>
       <p><strong>Type:</strong> {item.type}</p>
       <p><strong>Location:</strong> {item.location}</p>
