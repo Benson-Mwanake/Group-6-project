@@ -18,8 +18,6 @@ Lost & Found Board is a React-based application that allows users to post either
 * **View Listings:** Browse through all posted items with relevant images and quick summaries.
 * **Item Details:** Click any item to see a full view with extended information.
 * **Filter by Type:** Toggle between "Lost" or "Found" to narrow your search.
-* **Responsive Design:** Seamlessly works across desktops, tablets, and mobile devices.
-
 ---
 
 ## Screenshot
