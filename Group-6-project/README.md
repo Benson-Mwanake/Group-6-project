@@ -111,7 +111,7 @@ Visit [http://localhost:5173](http://localhost:5173) in your browser.
 
 For questions, support, or collaboration:
 
-* Email: [group6@school.com](benson.mwanake@student.moringaschool.com)
+* Email: benson.mwanake@student.moringaschool.com
 
 ---
 
